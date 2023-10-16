@@ -1,0 +1,26 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  background-color: white;
+  color: black;
+  width: 70%;
+  height: 200px;
+  font-size: 30px;
+  border-radius: 125px;
+}
+
+.main-page {
+  background-color: #eb9494;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+Label.title {
+  font-weight: bold;
+  font-size: 55px;
+  padding: 25, 0, 75, 0;
+}

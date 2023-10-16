@@ -1,0 +1,12 @@
+<Page class="main-page" xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="About Me" icon=""/>
+    <ScrollView>
+    <StackLayout>
+            <Label text="About Me!" class="text-3xl text-center title"/>
+            <Button text="About Me" onTap = "goToAboutPage" class="-primary" margin="0,0,50,0"/>
+            <Button text="My Skills" class="-primary" margin="0,0,50,0"/>
+            <Button text="Contact Me" class="-primary" margin="0,0,50,0"/>
+            <Image src="~/kc-removebg-preview.png" width="100%"/>
+    </StackLayout>
+    </ScrollView>
+</Page>
