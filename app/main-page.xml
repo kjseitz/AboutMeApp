@@ -3,7 +3,7 @@
     <ScrollView>
     <StackLayout>
             <Label text="About Me!" class="text-3xl text-center title"/>
-            <Button text="About Me" onTap = "goToAboutPage" class="-primary" margin="0,0,50,0"/>
+            <Button name="AboutPage" text="About Me" onTap = "goToAboutPage" class="-primary" margin="0,0,50,0"/>
             <Button text="My Skills" class="-primary" margin="0,0,50,0"/>
             <Button text="Contact Me" class="-primary" margin="0,0,50,0"/>
             <Image src="~/kc-removebg-preview.png" width="100%"/>
